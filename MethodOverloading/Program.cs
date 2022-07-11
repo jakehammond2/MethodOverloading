@@ -8,5 +8,5 @@ Console.WriteLine(sum);
 var sumDecimal = Methods.Add(.23, .45);
 Console.WriteLine(sumDecimal);
 
-var answer = Methods.Add(2, 3, true);
+var answer = Methods.Add(1, 0, true);
 Console.WriteLine(answer); 

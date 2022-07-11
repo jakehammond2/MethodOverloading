@@ -17,10 +17,10 @@ namespace MethodOverloading
             return (x + y);
         }
 
-        public static string Add(int x, int y, bool isTrue)
+        public static string Add(int x, int y, bool z)
         {           
 
-           if (x + y > 1 && isTrue)
+           if (z == true && x + y != 1)
             {
                 return ($"{x + y} dollars");
             }
